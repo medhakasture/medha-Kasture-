@@ -1,0 +1,11 @@
+n=int(input("enter number"))
+sum=0
+t=n
+while t>0:
+    d=t%10
+    sum+=d**3
+    t//=10
+if n==sum:
+    print(n,"is armstrong number")
+else:
+    print("not an armstrong number")
