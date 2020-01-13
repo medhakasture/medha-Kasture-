@@ -1,0 +1,7 @@
+w=input("enter a word")
+n=input("enter which character to check")
+cou=0
+for x in w:
+    if x==n:
+        cou+=1
+print(cou)    
