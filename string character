@@ -1,0 +1,8 @@
+s=input("enter word")
+cou=0
+for x in s:
+  for j in s:
+    if j==x:
+      cou+=1
+  print(str(x)+"="+str(cou))
+  cou=0    
