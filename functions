@@ -1,0 +1,18 @@
+def add(a,b):
+    return a+b
+x=add(10,20)
+print(x)
+def sub(m,n):
+    return m-n
+y=sub(32,16)
+print(y)
+def  mul(o,p):
+    return o*p
+def div(v,u):
+    return v/u
+
+z=div(122,2)
+f=mul(34,4)
+
+print(z)
+print(f)
